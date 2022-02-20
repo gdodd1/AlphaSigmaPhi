@@ -21,6 +21,7 @@ function Navbar() {
                 <Link to="/prudential"> Prudential </Link>
                 <Link to="/about"> About </Link>
                 <Link to="/contact"> Contact </Link>
+                <Link to="/calendar"> Calendar </Link>
             </div>
         </div>
         <div className='rightSide' >
