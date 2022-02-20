@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -5,9 +6,10 @@ import Home from "./pages/Home";
 import Prudential from "./pages/Prudential";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Calendar from "./pages/Calendar";
 //work
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -17,6 +19,7 @@ function App() {
           <Route path="/Prudential" element={<Prudential />} />
           <Route path="/About" element={<About />} /> 
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Calendar" element={<Calendar />} />
         </Routes>
         <Footer />
       </Router>
