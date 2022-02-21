@@ -3,7 +3,7 @@ import {PrudentialList} from "../helpers/PrudentialList";
 import PrudentialItem from '../components/PrudentialItem';
 import "../styles/Prudential.css";
 
-function Menu() {
+function Prudential() {
   return (
     <div className='prudential'>
         <h1 className='prudentialTitle'> Our Prudential Board</h1>
@@ -23,4 +23,4 @@ function Menu() {
   )
 }
 
-export default Menu
+export default Prudential

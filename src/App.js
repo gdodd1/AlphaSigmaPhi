@@ -7,6 +7,7 @@ import Prudential from "./pages/Prudential";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Calendar from "./pages/Calendar";
+import Announcements from "./pages/Announcements";
 //work
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/About" element={<About />} /> 
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Calendar" element={<Calendar />} />
+          <Route path="/Announcements" element={<Announcements />} />
         </Routes>
         <Footer />
       </Router>
