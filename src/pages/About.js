@@ -11,7 +11,7 @@ function About() {
       <div className="aboutBottom">
         <h1> ABOUT US</h1>
         <p>
-          The Kappa Pi provisional vhapter of Alpha Sigma Phi was founded in the 
+          The Kappa Pi provisional chapter of Alpha Sigma Phi was founded in the 
           Fall 2021 semester. The founding father rush class had 24 brothers.
         </p>
       </div>

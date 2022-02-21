@@ -18,12 +18,15 @@
     display: flex;
     flex-direction: column;
     height: 55%;
+    width: 100vw;
     align-items: center;
     margin-top: 50px;
   }
   
   .aboutBottom p {
-    width: 1200px;
+    width: 100vw;
+    word-wrap: break-word;
+    text-align: center;
   }
   
   .about .aboutBottom h1 {
