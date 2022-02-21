@@ -5,20 +5,22 @@ import "../styles/Announcements.css";
 
 function Announcements() {
   return (
-    <div className='announcement'>
-        <h1 className='announcementTitle'> Announcements</h1>
-        <div className='announcementList'>
-            {AnnouncementList.map((announcementItem, key) => {
-                return (
-                    <AnnouncementItem 
-                        key={key}
-                        title = {announcementItem.title}
-                        author={announcementItem.author}
-                        date={announcementItem.date}
-                        announcement={announcementItem.announcement}
-                    />
-                )
-            })}
+    <div className='announcementPage'>
+        <div className='announcement'>
+            <h1 className='announcementTitle'> Announcements</h1>
+            <div className='announcementList'>
+                {AnnouncementList.map((announcementItem, key) => {
+                    return (
+                        <AnnouncementItem 
+                            key={key}
+                            title = {announcementItem.title}
+                            author={announcementItem.author}
+                            date={announcementItem.date}
+                            announcement={announcementItem.announcement}
+                        />
+                    )
+                })}
+            </div>
         </div>
     </div>
   )

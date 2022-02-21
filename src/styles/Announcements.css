@@ -1,5 +1,13 @@
+.announcementPage{
+    height: 65vh;
+}
+.announcementTitle{
+    text-align: center;
+}
 .announcementList{
     border: 2px solid rgb(196, 30, 58);
     text-align: center;
     margin-bottom: 5px;
+}.announcementList p{
+    word-break: break-word;
 }
